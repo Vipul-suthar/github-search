@@ -183,25 +183,40 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    gap: 5px;
     /* box-shadow: inset 5px 5px 10px rgb(81, 80, 80, 0.7);
     border-radius: 20px; */
     padding: 0;
     overflow: hidden;
   }
   .container .containerBody ul .li .liDiv {
-    width: 100%;
+    width: 85%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* justify-content: flex-start; */
     gap: 5px;
+    overflow: hidden;
+    /* padding: 0 10px; */
+    /* background-color: aquamarine; */
   }
   .container .containerBody ul .li img {
-    width: 40px;
+    width: 50px;
   }
 
   .container .containerBody ul .li .liDiv p {
+    /* align-items: center; */
+    text-align: center;
     font-weight: 800;
     font-size: 14px;
   }
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+    box-shadow: inset 5px 5px 10px transparent;
+    border-radius: 40px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border-radius: 40px;
+  }
+  
 }
