@@ -131,23 +131,23 @@ body {
   font-size: 10px;
   overflow-wrap: break-word;
 }
-.container .containerBody::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 8px;
   height: 8px;
   scroll-behavior: smooth;
   position: absolute;
   left: 100px;
 }
-.container .containerBody::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
   background-color: whitesmoke;
   box-shadow: inset 5px 5px 10px rgb(81, 80, 80, 0.5);
   border-radius: 40px;
 }
-.container .containerBody::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
   background-color: rgb(81, 80, 80, 0.7);
   border-radius: 40px;
 }
-.container .containerBody::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover {
   background-color: rgba(62, 61, 61, 0.7);
   border-radius: 40px;
 }
