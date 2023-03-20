@@ -129,7 +129,6 @@ body {
 .container .containerBody ul .li .liDiv a {
   font-weight: 700;
   font-size: 10px;
-  overflow-wrap: break-word;
 }
 ::-webkit-scrollbar {
   width: 8px;
